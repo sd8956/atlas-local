@@ -1,0 +1,33 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local installs
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Atlas Local generated customer/demo data
+.workspaces/
+
+# Local secrets and operator machine state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp

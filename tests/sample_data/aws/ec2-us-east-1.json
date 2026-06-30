@@ -1,0 +1,10 @@
+{
+  "metadata": {"service": "ec2", "collector": "sample", "account_id": "123456789012", "region": "us-east-1", "read_only": true},
+  "items": {
+    "instances": [{"Reservations": [{"Instances": [{"InstanceId": "i-sample", "State": {"Name": "stopped"}, "Tags": []}]}]}],
+    "volumes": [{"Volumes": [{"VolumeId": "vol-sample", "Attachments": [], "Tags": []}]}],
+    "security_groups": [{"SecurityGroups": [{"GroupId": "sg-sample", "GroupName": "open", "IpPermissions": [{"IpRanges": [{"CidrIp": "0.0.0.0/0"}]}], "Tags": []}]}],
+    "nat_gateways": [{"NatGateways": [{"NatGatewayId": "nat-sample", "Tags": []}]}]
+  },
+  "errors": []
+}

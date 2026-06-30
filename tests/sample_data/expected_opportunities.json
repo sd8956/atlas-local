@@ -1,0 +1,6 @@
+[
+  "Add owner tags to unowned AWS resources",
+  "Review broadly public security groups",
+  "Review unattached EBS volumes",
+  "Review NAT Gateway cost posture"
+]
